@@ -3,7 +3,7 @@
 
 include 'Client.php';
 //токен приложения
-$client = new Client('3slMEIuPI9gAAAAAAAAAAVsAdvqLBuCtNr3WcXVi1eqx5OoHvHDSOLMe7mLzD1g5');
+$client = new Client('');
 
 $cnf['httpPath'] = 'https://dropbox.com/home/';
 $cnf['preview_formats'] = ['img', 'png', 'jpg', '3fr', 'ai', 'arw', 'bmp', 'cr2', 'crw', 'dcr', 'dcs', 'dng', 'dwg', 'erf', 'gif', 'heic', 'jpeg', 'kdc', 'mef', 'mos', 'mrw', 'nef', 'nrw', 'orf', 'pef', 'ppm', 'psd', 'r3d', 'raf', 'rw2', 'rwl', 'sr2', 'svg', 'svgz', 'tif', 'tiff', 'wbmp', 'webp', 'x3f',];
