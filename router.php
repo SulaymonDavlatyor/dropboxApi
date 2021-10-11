@@ -1,8 +1,8 @@
 <?php
 include 'vendor/autoload.php';
-include 'test3.php';
+
 //токен приложения
-//$client = new Spatie\Dropbox\Client('3slMEIuPI9gAAAAAAAAAAVsAdvqLBuCtNr3WcXVi1eqx5OoHvHDSOLMe7mLzD1g5');
+//$client = new Spatie\Dropbox\Client('');
 $cnf['apikey'] = '12345';
 $cnf['path'] = '/images';
 $cnf['files'] = 'dropboxupload';
